@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+   
+  }
+  header{
+    margin-left: 17vh;
+    margin-top: 0vh;
+  }
+body{
+    
+    background-image: url(/resources/job562-nunoon-05-g.jpg);
+    display: block;
+    margin-left: 70vh !important;
+    align-items: center;
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.hide {
+    display: none !important;
+  }
+
+section{
+background: linear-gradient(180deg, rgba(89, 76, 238, 1) 0%, #8dd0f5 100%);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+padding: 10px;
+width: 450px;
+text-align: center;
+}
+section h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+section input{
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+section button{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#pet-dados,
+#erro
+{
+  border-top: 1px solid #fff;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+#pet-dados h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    
+}
+#pet-dados h2 i {
+    font-size: 2rem;
+  }
+  
+  #pet-dados span {
+    margin: 0.6rem;
+    
+  }
+  
